@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation"
+    app:startDestination="@+id/home_fragment"
+    tools:ignore="UnusedNavigation">
+
+    <fragment
+        android:id="@+id/home_fragment"
+        android:name="com.shah.hindustangraincenter.HomeFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/cart_fragment"
+        android:name="com.shah.hindustangraincenter.CartFragment"
+        android:label="@string/cart"
+        tools:layout="@layout/fragment_cart" />
+
+    <fragment
+        android:id="@+id/order_fragment"
+        android:name="com.shah.hindustangraincenter.OrderFragment"
+        android:label="@string/orders"
+        tools:layout="@layout/fragment_order" />
+
+    <fragment
+        android:id="@+id/account_fragment"
+        android:name="com.shah.hindustangraincenter.AccountFragment"
+        android:label="@string/account"
+        tools:layout="@layout/fragment_account" />
+
+    <fragment
+        android:id="@+id/help_fragment"
+        android:name="com.shah.hindustangraincenter.HelpFragment"
+        android:label="@string/help"
+        tools:layout="@layout/fragment_help" />
+
+    <fragment
+        android:id="@+id/product_fragment"
+        android:name="com.shah.hindustangraincenter.ProductsFragment"
+        android:label="Products"
+        tools:layout="@layout/fragment_products"/>
+
+    <fragment
+        android:id="@+id/pass_fragment"
+        android:name="com.shah.hindustangraincenter.ChangePwd"
+        android:label="Change Password"
+        tools:layout="@layout/change_pwd_layout"/>
+
+    <fragment
+        android:id="@+id/manage_add_fragment"
+        android:name="com.shah.hindustangraincenter.ManageAddress"
+        android:label="Manage Addresses"
+        tools:layout="@layout/fragment_manage_address"/>
+
+    <fragment
+        android:id="@+id/delivery_add_fragment"
+        android:name="com.shah.hindustangraincenter.DeliveryAddressFragment"
+        android:label="Select Address"
+        tools:layout="@layout/fragment_delivery_address"/>
+
+    <fragment
+        android:id="@+id/order_review_fragment"
+        android:name="com.shah.hindustangraincenter.OrderReviewFragment"
+        android:label="Review Order"
+        tools:layout="@layout/fragment_order_review"/>
+
+    <fragment
+        android:id="@+id/payment_fragment"
+        android:name="com.shah.hindustangraincenter.PaymentFragment"
+        android:label="Payment"
+        tools:layout="@layout/fragment_payment"/>
+
+    <fragment
+        android:id="@+id/pod_fragment"
+        android:name="com.shah.hindustangraincenter.PodFragment"
+        android:label="Payment"
+        tools:layout="@layout/fragment_pod"/>
+
+    <fragment
+        android:id="@+id/order_detail_fragment"
+        android:name="com.shah.hindustangraincenter.OrderDetailFragment"
+        android:label="Order Detail"
+        tools:layout="@layout/fragment_order_detail"/>
+</navigation>
